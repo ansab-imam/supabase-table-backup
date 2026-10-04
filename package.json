@@ -1,0 +1,37 @@
+{
+  "name": "supabase-table-backup",
+  "version": "1.0.0",
+  "description": "Back up and restore Supabase tables to JSON or CSV using only the REST API. Zero dependencies.",
+  "type": "module",
+  "bin": {
+    "supabase-table-backup": "bin/cli.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "supabase",
+    "backup",
+    "postgrest",
+    "export",
+    "restore",
+    "csv",
+    "json",
+    "cli"
+  ],
+  "author": "Socialist Fox",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ansab-imam/supabase-table-backup"
+  }
+}
